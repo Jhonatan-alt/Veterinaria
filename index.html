@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Veterinaria</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="./images/medicina-veterinaria-800x450.original.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Veterinaria JM.</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#servicios" class="nav__links">Servicios</a> 
+                </li>
+                <li class="nav__items">
+                    <a href="#blog" class="nav__links">Blog</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#contacto" class="nav__links">Contacto</a>
+                </li>
+                <img src="./images/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./images/menu.svg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">VETERINARIA JM</h1>
+            <p class="hero__paragraph">En nuestra veterinaria nos apasiona cuidar de nuestros amigos peludos. Cada día es una nueva aventura, 
+                llena de desafíos y recompensas. Desde un simple chequeo hasta una cirugía compleja, 
+                mi objetivo siempre es brindar la mejor atención posible a cada paciente.</p>
+            <a href="#" class="cta">Agenda Tu Cita Ahora</a>
+        </section>
+    </header>
+
+    <main>
+        <section id="servicios" class="about"> 
+            <h2 class="subtitle">¿Qué Servicios Prestamos?</h2>
+            <p class="about__paragraph">En Veterinaria JM, ofrecemos una experiencia de spa completa para tu mascota. Nuestros servicios van más allá de un simple baño. 
+                Contamos con profesionales altamente capacitados que utilizan productos de primera calidad para cuidar cada detalle de su pelaje y piel.</p>
+        </section>
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAVZJREFUSEvtluFtAjEMhR+btJPQbgKTFCahnQSYhG5S+BCuTLAvIVx1P4qlE6cj8bOfn53MNJHNJsJVL/CLJJ5db+C9wG+StpK+Jb32gD8KDOanpOW94GMAl5iw8HX6uBoK5i+ADW+QiRKYKNlA1ENmNY6yRXCLyx+87y/v+MT32TwwizeNgsmAzR/CY01paOEM7oG9s/dKq0TAZIRjfg8JXWurvQemL21DTalZxjVxhxmziRp/uJpEteYbkWdZNYm5FBdZU2sDj5zY0MjqmAFfsRi1k6c8c0LGOGrN+mbCZX38UymWFxKdECkYF+kw6QUunVKeuetfGKGH00PkEWAjxcT2Oxxq0i772K+vUZ35bj6txsi4DKJp/j+BjTZfY2udrK4MG99Oo1FNS3BoZFZOsCdwyFSLqv8H1f6GeHVXCnhjTnOimQ3eLm1RkwJbZu+9ayYDPgJr5FgfsR0BMQAAAABJRU5ErkJggg==" class="about__icon"/>
+                    <h3 class="about__title">Baños</h3>
+                    <p class="about__paragrah">¿Quieres ver a tu mascota relucir como nunca? En Veterinaria JM, entendemos que cada mascota es única.
+                         Por eso, ofrecemos un servicio de baño personalizado, adaptado a las necesidades de tu peludo amigo.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAaJJREFUSEvtlo1NwzAQhd1JgE1gE5gEmASYBJgEmAT8RXnRw7VzdhqpEuKkqqlj+/O9+3EP6Ux2OBM3jYAvU0rXKaVnOyxjnwOHZ/0b80fAHxkK6M7gjN10wp/y2q8MfRgFf8+eOZgxPI7gQG+zo4+j4NdZZthX5qEOswYXlLUhGDkuZmmJi4z44rFMYH4DL+NNaPjImmAm4Z1P1iKSAkndHNyTY02wSyoP3mdPPJtbHpcHZo/QY4JPPLBS0pY38lhqACHTsdpY1WMH95ZZCSYfUM3BPlYF+wRiORV6YGVybZLaZSI2AlP0NSPzPSeiQ/J+6QGlpA6PNkIV5isvovm8X3pALZZsRrzvg51IQGLWKr9y+a+EXUuiSEZ1K9X+2jmPesApYECC84zk3uX0/iU/TBeD26lgbY7kSKmrk2+8bFbGHmA5okpQp8N7xmodb/U+jmLck8W1/j6t29Pj2kF2AfvNVNYvcpJEmFomz7uAXR1vrwCWHpzr39voP3jJg5Hk+vtSc1H4/eptTxeJpPMu5fM2NZCeBrF5Tu9fnM2A1sIfEzqHHzGkCasAAAAASUVORK5CYII=" class="about__icon"/>                    
+                    <h3 class="about__title">Consultas</h3>
+                    <p class="about__paragrah">Una consulta veterinaria es como una visita al médico para tu mascota. 
+                        Es el momento en el que un profesional veterinario evalúa la salud general de tu animal de compañía, 
+                        diagnostica posibles enfermedades y te brinda las recomendaciones necesarias para mantenerlo sano y feliz</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAVZJREFUSEvtluFtAjEMhR+btJPQbgKTFCahnQSYhG5S+BCuTLAvIVx1P4qlE6cj8bOfn53MNJHNJsJVL/CLJJ5db+C9wG+StpK+Jb32gD8KDOanpOW94GMAl5iw8HX6uBoK5i+ADW+QiRKYKNlA1ENmNY6yRXCLyx+87y/v+MT32TwwizeNgsmAzR/CY01paOEM7oG9s/dKq0TAZIRjfg8JXWurvQemL21DTalZxjVxhxmziRp/uJpEteYbkWdZNYm5FBdZU2sDj5zY0MjqmAFfsRi1k6c8c0LGOGrN+mbCZX38UymWFxKdECkYF+kw6QUunVKeuetfGKGH00PkEWAjxcT2Oxxq0i772K+vUZ35bj6txsi4DKJp/j+BjTZfY2udrK4MG99Oo1FNS3BoZFZOsCdwyFSLqv8H1f6GeHVXCnhjTnOimQ3eLm1RkwJbZu+9ayYDPgJr5FgfsR0BMQAAAABJRU5ErkJggg==" class="about__icon"/>
+                    <h3 class="about__title">Desparasitación</h3>
+                    <p class="about__paragrah">La desparasitación es un procedimiento esencial para mantener a tu mascota sana y libre de parásitos. 
+                        Estos organismos microscópicos pueden causar una variedad de problemas de salud, desde molestias leves hasta enfermedades graves.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="blog" class="contact"> 
+            <h2 class="subtitle">Conoce Nuestro Equipo</h2>
+            <div class="testimony__container container">
+                <img src="./images/leftarrow.svg" class="testimony__arrow" id="before">
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Jordan Alexander, <span class="testimony__course">Gerente
+                                de veterinarias JM.</span></h2>
+                        <p class="testimony__review">Bienvenido a Veterinaria JM! Estamos encantados de recibirte a ti y a tu mascota. 
+                            Nuestro equipo de profesionales está comprometido en brindar la mejor atención y cuidado para tu amigo peludo. </p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/descarga.jpeg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Alejandra Perez, <span class="testimony__course">Especialista en 
+                            Urgencias veterinarias</span></h2>
+                        <p class="testimony__review">Decidí estudiar veterinaria porque quiero marcar la diferencia en la vida de los animales. 
+                            Me duele verlos sufrir y quiero ser capaz de aliviar su dolor y ayudarlos a recuperarse.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/Auxiliar-Veterinaria-2.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Karen Arteaga, <span class="testimony__course">Graduada de
+                                Veterinaria.</span></h2>
+                        <p class="testimony__review">Siempre he tenido una conexión especial con los animales. 
+                            Desde pequeña, pasaba horas jugando con mis mascotas y aprendiendo sobre ellas. Al estudiar veterinaria, 
+                            puedo combinar mi amor por los animales con mi deseo de ayudar a los demás</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/images (1).jpeg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="4">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Kevin Ramirez, <span class="testimony__course">Estudiante de
+                                Veterinaria.</span></h2>
+                        <p class="testimony__review">Una de las cosas que más me gusta de estudiar veterinaria es la variedad de asignaturas. 
+                            Aprendemos sobre nutrición, genética, comportamiento animal y muchas otras cosas.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./images/images.jpeg" class="testimony__img">
+                    </figure>
+                </section>
+
+
+                <img src="./images/rightarrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+
+        <section id="contacto" class="contact"> 
+            <h2 class="subtitle">Contactanos</h2>
+            <p class="contact__paragraph">Si tienes alguna pregunta, no dudes en contactarnos a través del siguiente formulario:</p>
+                <div class="contact__info">
+                    <h3>Información de Contacto</h3>
+                    <p>Email: contacto@veterinariajm.com</p>
+                    <p>Teléfono: +123 456 7890</p>
+                    <p>Dirección: Calle 123, Ciudad</p>
+                    <div class="contact__social">
+                        <a href="#" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+                        <a href="#" class="footer__icons"><img src="./images/insta.svg" class="footer__img"></a>
+                        <a href="#" class="footer__icons"><img src="./images/whats.svg" class="footer__img"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">Veterinaria JM</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#servicios" class="nav__links">servicios</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#contacto" class="nav__links">Contacto</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#blog" class="nav__links">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+                <h2 class="footer__newsletter">Dejanos tu Correo</h2>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                    <input type="submit" value="Registrate" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="#" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/insta.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/whats.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy; Jordan Alexander</h3>
+        </section>
+    </footer>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/questions.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>
